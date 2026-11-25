@@ -129,3 +129,31 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* Tabulka */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+th, td {
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid #dce4ec;
+}
+
+th {
+    background-color: #1a5276;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f4f8fb;
+}
+
+tbody tr:hover {
+    background-color: #eaf2f8;
+}
