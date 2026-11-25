@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Osobní webová stránka vytvořená v rámci výuky HTML a CSS.">
+    <title>Tomáš Gráf - web</title>
+    <!-- Propojení se souborem style.css (Lekce 2) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hlavička stránky (Lekce 1 - použití div) -->
+    <div id="hlavicka">
+        <h1>Tomáš Gráf</h1>
+        <p>Vítejte na mé první osobní stránce.</p>
+    </div>
+
+    <hr>
+
+    <!-- Hlavní obsah stránky -->
+    <div id="obsah">
+        <h2>O mně</h2>
+
+        <!-- 1. odstavec se spanem pro zvýraznění slova (Lekce 1) -->
+        <p>
+            Ahoj! Právě se učím tvořit webové stránky pomocí jazyků
+            <span class="zvyraznene-slovo">HTML</span> a CSS.
+            Baví mě objevovat, jak funguje internet a jak se weby nahrávají na server.
+        </p>
+
+        <!-- 2. odstavec s třídou .highlight pro CSS (Lekce 2) -->
+        <p class="highlight">
+            Rád zkouším nové věci, zjišťuji, jak věci fungují pod pokličkou, a postupně si skládám vlastní projekty.
+            Každý nový krok mě posouvá o kus dál a dává mi větší jistotu v tom, co dělám.
+        </p>
+
+        <h2>Moje 3 oblíbené věci</h2>
+        <!-- Neuspořádaný seznam (Lekce 1) -->
+        <ul>
+            <li>Programování a tvorba webu</li>
+            <li>Poslech hudby a hraní her</li>
+            <li>Cestování a dobré jídlo</li>
+        </ul>
+
+        <h2>Můj obrázek</h2>
+        <!-- Obrázek s URL adresou, alt (SEO/validace) a title (tooltip při najetí myší) -->
+        <img src="https://picsum.photos/400/250" alt="Náhodný ilustrační obrázek přírody" title="Toto je ukázkový obrázek s atributem title">
+    </div>
+
+    <hr>
+
+</body>
+</html>
